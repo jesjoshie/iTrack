@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.Awfulinterface"
+    android:orientation="vertical">
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="20dp"
+        android:text="HOW ARE YOU?"
+        android:textSize="15dp"
+        android:textColor="@color/black"
+        android:gravity="center"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal"
+        android:layout_marginTop="10dp"
+        >
+
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@drawable/ic_calendar"
+            android:paddingLeft="5dp"
+            />
+
+        <TextView
+            android:id="@+id/datebutton"
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:layout_marginRight="10dp"
+            android:background="@color/white"
+            android:clickable="true"
+            android:gravity="center"
+            android:hint="dd/mm/yyyy"
+            android:onClick="lastPeriod"
+            android:textColor="@color/black"
+            android:textSize="18dp" />
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@drawable/ic_clock"
+            android:paddingLeft="5dp"
+            />
+        <Button
+            android:id="@+id/time"
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:layout_marginRight="10dp"
+            android:backgroundTint="@color/white"
+            android:clickable="true"
+            android:gravity="center"
+            android:hint="Input Time"
+            android:onClick="lastPeriod"
+            android:textColor="@color/black"
+            android:textSize="18dp" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="75dp"
+        android:orientation="horizontal"
+        >
+        <ImageButton
+            android:id="@+id/smile"
+            android:layout_marginTop="10dp"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:src="@drawable/smile"
+            android:layout_marginLeft="50dp"
+            android:backgroundTint="@color/white"
+
+
+            />
+
+        <ImageButton
+            android:id="@+id/good"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="10dp"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:src="@drawable/good"
+
+            />
+        <ImageButton
+            android:id="@+id/meh"
+            android:layout_marginTop="10dp"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:src="@drawable/meh1"
+            android:layout_marginLeft="5dp"
+            android:backgroundTint="@color/white"
+
+            />
+        <ImageButton
+            android:id="@+id/sad"
+            android:layout_marginTop="10dp"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:src="@drawable/sad"
+            android:layout_marginLeft="5dp"
+
+            />
+        <ImageButton
+            android:id="@+id/awful"
+            android:layout_marginTop="10dp"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:src="@drawable/awfulcolored"
+            android:layout_marginLeft="5dp"
+            android:backgroundTint="@color/white"
+            />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="75dp"
+        android:orientation="horizontal"
+        >
+        <TextView
+            android:layout_width="50dp"
+            android:layout_height="20dp"
+            android:text="Rad"
+            android:layout_marginLeft="65dp"/>
+        <TextView
+            android:layout_width="50dp"
+            android:layout_height="20dp"
+            android:text="Good"
+            android:layout_marginLeft="15dp"/>
+        <TextView
+            android:layout_width="50dp"
+            android:layout_height="20dp"
+            android:text="Meh"
+            android:layout_marginLeft="15dp"/>
+
+        <TextView
+            android:layout_width="50dp"
+            android:layout_height="20dp"
+            android:text="Sad"
+            android:layout_marginLeft="15dp"/>
+        <TextView
+            android:layout_width="50dp"
+            android:layout_height="20dp"
+            android:text="Awful"
+            android:layout_marginLeft="15dp"/>
+
+    </LinearLayout>
+    <ImageButton
+        android:id="@+id/next"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:src="@drawable/ic_continue"
+        android:backgroundTint="@color/white"
+        android:layout_gravity="center"
+        android:layout_marginTop="270dp"
+        />
+</LinearLayout>
