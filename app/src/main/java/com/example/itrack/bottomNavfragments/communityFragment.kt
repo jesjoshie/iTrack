@@ -5,6 +5,8 @@ import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import android.webkit.WebView
+import android.widget.ViewFlipper
 import com.example.itrack.R
 
 class communityFragment : Fragment(R.layout.fragment_community) {

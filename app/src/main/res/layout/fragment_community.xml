@@ -6,6 +6,7 @@
     android:layout_height="match_parent"
     android:id="@+id/draw_layout"
     android:fitsSystemWindows="true"
+    android:orientation="vertical"
     tools:context=".bottomNavfragments.communityFragment"
     tools:openDrawer="start">
 
@@ -14,12 +15,22 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
         <SearchView
+            android:layout_marginTop="10dp"
             android:id="@+id/search_view"
-            android:background="#03A9F4"
+            android:background="@drawable/custom_background"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"/>
     </LinearLayout>
-   
+    <RelativeLayout
+        android:layout_width = "match_parent"
+        android:layout_height = "match_parent"
+        app:layout_behavior = "appbar_scrolling_view_behavior">
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scrollbars = "horizontal"
+        />
+    </RelativeLayout>
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
@@ -27,12 +38,12 @@
 
     </LinearLayout>
 
-   <!-- <com.google.android.material.navigation.NavigationView
+    <com.google.android.material.navigation.NavigationView
         android:layout_width="wrap_content"
         android:layout_height="match_parent"
         android:layout_gravity="start"
         android:id="@+id/nav_view"
         app:headerLayout="@layout/drawer_nav_header"
-        app:menu="@menu/drawer_menu"/>-->
+        app:menu="@menu/drawer_menu"/>
 
 </androidx.drawerlayout.widget.DrawerLayout>
