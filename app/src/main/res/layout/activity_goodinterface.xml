@@ -60,62 +60,67 @@
             android:textColor="@color/black"
             android:textSize="18dp" />
     </LinearLayout>
+
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="75dp"
-        android:orientation="horizontal"
-        >
+        android:orientation="horizontal">
+
         <ImageButton
             android:id="@+id/smile"
-            android:layout_marginTop="10dp"
             android:layout_width="60dp"
             android:layout_height="60dp"
-            android:src="@drawable/smile"
             android:layout_marginLeft="50dp"
+            android:layout_marginTop="10dp"
             android:backgroundTint="@color/white"
+            android:src="@drawable/smile"
 
 
             />
 
         <ImageButton
             android:id="@+id/good"
-            android:layout_marginLeft="5dp"
-            android:layout_marginTop="10dp"
             android:layout_width="60dp"
             android:layout_height="60dp"
-            android:src="@drawable/goodcoloredpng"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="10dp"
             android:backgroundTint="@color/white"
+            android:src="@drawable/goodcoloredpng"
 
             />
+
         <ImageButton
             android:id="@+id/meh"
-            android:layout_marginTop="10dp"
             android:layout_width="60dp"
             android:layout_height="60dp"
-            android:src="@drawable/meh1"
             android:layout_marginLeft="5dp"
+            android:layout_marginTop="10dp"
+            android:src="@drawable/meh1"
 
             />
+
         <ImageButton
             android:id="@+id/sad"
-            android:layout_marginTop="10dp"
             android:layout_width="60dp"
             android:layout_height="60dp"
-            android:src="@drawable/sad"
             android:layout_marginLeft="5dp"
+            android:layout_marginTop="10dp"
+            android:src="@drawable/sad"
 
             />
+
         <ImageButton
             android:id="@+id/awful"
-            android:layout_marginTop="10dp"
             android:layout_width="60dp"
             android:layout_height="60dp"
-            android:src="@drawable/awful"
             android:layout_marginLeft="5dp"
+            android:layout_marginTop="10dp"
+            android:src="@drawable/awful"
 
             />
 
     </LinearLayout>
+
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="75dp"
