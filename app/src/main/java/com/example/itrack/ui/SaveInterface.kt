@@ -29,11 +29,11 @@ class SaveInterface : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_save_interface)
-        /*val save =  findViewById<ImageButton>(R.id.saveBTN)
+        val save =  findViewById<ImageButton>(R.id.saveBTN)
         save.setOnClickListener {
             val purposeIntent = Intent(applicationContext, MoodTracker::class.java)
             startActivity(purposeIntent)
-        }*/
+        }
 
 
     }
